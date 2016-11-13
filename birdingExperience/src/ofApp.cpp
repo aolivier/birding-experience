@@ -2,7 +2,7 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+  _birdFactory = make_unique<BirdFactory>();
 }
 
 //--------------------------------------------------------------
@@ -17,6 +17,10 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
+  
+  if (key == OF_KEY_DOWN){
+    _birdFactory->addBird();
+  }
 
 }
 
