@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "BirdFactory.h"
+#include "FrameManager.h"
 
 class ofApp : public ofBaseApp{
 
@@ -23,5 +24,6 @@ class ofApp : public ofBaseApp{
 		void gotMessage(ofMessage msg);
   
     std::unique_ptr<BirdFactory> _birdFactory;
+    std::unique_ptr<FrameManager> _frameManager;
 		
 };
