@@ -23,7 +23,7 @@ Setup
 
 ### Birding app
 
-8 - Clone the app into openFrameworks/codekitchen/soso  
+8 - Clone the app into openFrameworks/codekitchen  
 ```git clone https://github.com/aolivier/birding-experience.git```  
 
 9 - Create a local dev branch and pull the dev branch  
