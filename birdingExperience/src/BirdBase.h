@@ -9,12 +9,15 @@
 #pragma once
 
 #include "ofMain.h"
+#include "SceneObject.h"
 
-class BirdBase {
+class BirdBase : public SceneObject {
   
 public:
   
   BirdBase();
+  
+  void render();
   
 private:
   

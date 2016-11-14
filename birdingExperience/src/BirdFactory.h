@@ -17,6 +17,7 @@ public:
   BirdFactory();
   
   void addBird();
+  void render();
   
 private:
   
